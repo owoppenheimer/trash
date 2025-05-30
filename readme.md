@@ -1,6 +1,6 @@
 ## C-Trash
 
-![Trash](pics/C_Logo.png)
+<img src=pics/C_Logo.png width="200" height="100">
 
 This is the trash-repository of random C garbage on my computer
 
