@@ -1,4 +1,4 @@
-# C-Trash
+## C-Trash
 
 This is the trash-repository of random C garbage on my computer
 
