@@ -1,5 +1,7 @@
 ## C-Trash
 
+![Trash](pics/C_Logo.png)
+
 This is the trash-repository of random C garbage on my computer
 
 - Telegram: [Link](https://t.me/gnulinuh)
