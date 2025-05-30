@@ -1,6 +1,6 @@
 ## C-Trash
 
-<img src=pics/C_Logo.png width="150" height="150">
+<img src=pics/C_Logo.png width="40" height="50">
 
 This is the trash-repository of random C garbage on my computer
 
