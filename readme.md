@@ -5,4 +5,16 @@ This is the trash-repository of random C garbage on my computer
 - Telegram: [Link](https://t.me/gnulinuh)
 - Twitch (empty): [Link](https://twitch.tv/owoppenheimer)
 
-`Dont clone it! (you can be shocked because of my trash coding-style)`
+`You dont need to clone it. This repository is JUST A RANDOM CODE`
+
+> **Why? For what?**
+
+- I dont know, really. I just want to *test* GitHub and Git.
+
+> **Where do you write code?**
+
+- Vim.
+
+> **Where are you from?**
+
+- Hint: Copilot is blocked in this country.
