@@ -1,18 +1,38 @@
 #include <stdio.h>
-#include "../include/types.h"
+#include <unistd.h>
+#include <string.h>
+#include "../include/testlib.h"
 
-void change_pos(Point* point, f64 x, f64 y, f64 z) {
-   point->x = x;
-   point->y = y;
-   point->z = z;
+#define WIDTH 130
+#define HEIGHT 6
+
+void animate(char buffer[HEIGHT][WIDTH + 1], short *frame) {
+   memset(buffer, ' ', HEIGHT * (WIDTH + 1));
+   for (int i = 0; i < HEIGHT; i++) {
+      buffer[i][WIDTH] = '\0';
+   }
+   int x = *frame % WIDTH;
+
+   buffer[HEIGHT / 2][x]     = '>';
+   buffer[HEIGHT / 2][x + 1] = '<';
+   buffer[HEIGHT / 2][x + 2] = '>';
+
+   puts(clearterm);
+
+   for (int i = 0; i < HEIGHT; i++) {
+      printf("%s\n", buffer[i]);
+   }
+   (*frame)++;
+   usleep(109999);
 }
 
 int main(void) {
-   Point a = { 1, 1, 1 };
+   char buffer[HEIGHT][WIDTH + 1];
+   short frame = 0;
 
-   printf("%lf %lf %lf\n", a.x, a.y, a.z);
-   change_pos(&a, 2, 2, 2);
-   printf("%lf %lf %lf\n", a.x, a.y, a.z);
+   while (1) {
+      animate(buffer, &frame);
+   }
 
    return 0;
 }
