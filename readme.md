@@ -7,6 +7,8 @@ This is the trash-repository of random C garbage on my computer
 
 `You dont need to clone it. This repository contains JUST A RANDOM CODE`
 
+`I also have awful code-style, sorry about it.`
+
 
 ## Q/A
 
