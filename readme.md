@@ -7,6 +7,10 @@ This is the trash-repository of random C garbage on my computer
 
 `You dont need to clone it. This repository is JUST A RANDOM CODE`
 
+
+## Q/A
+
+
 > **Why? For what?**
 
 - I dont know, really. I just want to *test* GitHub and Git.
