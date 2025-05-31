@@ -2,9 +2,9 @@
 #include "../include/types.h"
 
 void change_pos(Point* point, f64 x, f64 y, f64 z) {
-   point-> x = x;
-   point-> y = y;
-   point-> z = z;
+   point->x = x;
+   point->y = y;
+   point->z = z;
 }
 
 int main(void) {
