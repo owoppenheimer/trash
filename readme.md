@@ -5,7 +5,7 @@ This is the trash-repository of random C garbage on my computer
 - Telegram: [Link](https://t.me/gnulinuh)
 - Twitch (empty): [Link](https://twitch.tv/owoppenheimer)
 
-`You dont need to clone it. This repository is JUST A RANDOM CODE`
+`You dont need to clone it. This repository contains JUST A RANDOM CODE`
 
 
 ## Q/A
