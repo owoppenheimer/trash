@@ -12,7 +12,7 @@ int main(void) {
 
    for (size_t i = 0; i < n; i++) {
       printf("Input %zu element: ", i + 1);
-      if (scanf("%lf", &arr[i]) != 1) { fprintf(stderr, "Input/Output error."); return 1; }
+      if (scanf("%lf", &arr[i]) != 1) { fprintf(stderr, "Input/Output error."); free(arr); return 1; }
    }
 
    for (size_t i = 0; i < n; i++) {
